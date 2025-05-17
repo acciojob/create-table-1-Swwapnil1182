@@ -6,8 +6,8 @@ function insert_Row() {
 
 	row.innerHTML=
 		`
-		<td>New Cell1</td>
-		<td>New Cell2</td>
+		<td>New cell1</td>
+		<td>New cell2</td>
 		`
 
 	
