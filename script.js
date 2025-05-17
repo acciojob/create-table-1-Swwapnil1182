@@ -1,5 +1,5 @@
 function insert_Row() {
-    const table = document.getElementById("sampleTable");
+    const table = document.getElementById("sampleTable").getElementsByTagName("tbody")[0];
 
     // Create new row and cells
     const newRow = document.createElement("tr");
@@ -16,40 +16,4 @@ function insert_Row() {
 
     // Insert new row at the top
     table.insertBefore(newRow, table.firstChild);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-
-	/*const sampleTable=document.getElementById("sampleTable")
-	const row=document.createElement('tr')
-
-	row.innerHTML=
-		
-		<td>New Cell1</td>
-		<td>New Cell2</td>
-		
-
-	
-	sampleTable.insertAdjacentElement('afterbegin',row)*/
 }
